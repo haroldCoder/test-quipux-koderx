@@ -3,6 +3,7 @@
     justify-content: space-between;
     padding: 0 20px;
     background: var(--whitemain);
+    height: 100px;
 }
 
 .nav-1{
