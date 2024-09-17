@@ -1,0 +1,16 @@
+.menu-lat{
+    padding: 15px 12px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    gap: 30px;
+    background: #312734;
+    height: calc(100vh - 15px);
+}
+
+button{
+    background: transparent;
+    border: none;
+    color: var(--whitemain);
+    font-size: var(--text_16);
+}
