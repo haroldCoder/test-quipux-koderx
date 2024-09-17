@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MenulatComponent } from './menulat.component';
+import { ArticleComponent } from './article.component';
 
-describe('MenulatComponent', () => {
-  let component: MenulatComponent;
-  let fixture: ComponentFixture<MenulatComponent>;
+describe('ArticleComponent', () => {
+  let component: ArticleComponent;
+  let fixture: ComponentFixture<ArticleComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [MenulatComponent]
+      imports: [ArticleComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(MenulatComponent);
+    fixture = TestBed.createComponent(ArticleComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
