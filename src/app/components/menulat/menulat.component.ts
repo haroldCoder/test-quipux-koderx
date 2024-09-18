@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { faBars, faBoxArchive, faFileLines,  } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faBoxArchive, faChevronDown, faFileLines, faMinus, faUserLarge,  } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-menulat',
@@ -12,5 +12,26 @@ import { faBars, faBoxArchive, faFileLines,  } from '@fortawesome/free-solid-svg
 export class MenulatComponent {
   bars = faBars;
   box = faBoxArchive;
-  file = faFileLines
+  file = faFileLines;
+  isExpand = false;
+  user = faUserLarge;
+  chevron = faChevronDown;
+  toggle = 0;
+  line = faMinus;
+
+  changeExpand(){
+    this.isExpand = !this.isExpand;
+  }
+
+  changeToggle(num: number){
+    this.toggle = num;
+  }
+
+  redirectEmpresas(){
+    window.location.href = "/nombre-empresa"
+  }
+
+  redirectArticulos(){
+    window.location.href = "/articulos"
+  }
 }

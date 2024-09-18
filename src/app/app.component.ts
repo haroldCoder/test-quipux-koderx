@@ -4,11 +4,12 @@ import { NavbarComponent } from "./components/navbar/navbar.component";
 import { HomeComponent } from "./components/home/home.component";
 import { MenulatComponent } from "./components/menulat/menulat.component";
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ArticleComponent } from "./components/article/article.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NavbarComponent, HomeComponent, MenulatComponent, FontAwesomeModule],
+  imports: [RouterOutlet, NavbarComponent, HomeComponent, MenulatComponent, FontAwesomeModule, ArticleComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

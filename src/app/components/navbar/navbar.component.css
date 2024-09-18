@@ -33,3 +33,9 @@ h1{
 .nav-2 > h1{
     font-size: var(--text_16);
 }
+
+#nav-text{
+    border-bottom: 5px solid #119fe8;
+    color: #119fe8;
+    padding: 20px 0;
+}

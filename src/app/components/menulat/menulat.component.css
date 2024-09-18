@@ -6,6 +6,18 @@
     gap: 30px;
     background: #312734;
     height: 100vh;
+    width: 50px;
+}
+
+.menu-lat_expand{
+    padding: 15px 12px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    gap: 30px;
+    background: #312734;
+    height: 100vh;
+    width: 220px;
 }
 
 button{
@@ -13,4 +25,24 @@ button{
     border: none;
     color: var(--whitemain);
     font-size: var(--text_16);
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_logo{
+    width: 90px;
+    height: 25px;
+}
+
+h1{
+    font-size: var(--text_16);
+    color: #0cbd93;
+}
+
+p{
+    font-size: var(--text_14);
+    color: var(--whitemain);
 }
