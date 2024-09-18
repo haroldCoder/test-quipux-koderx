@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --text: 12px;
+    --title: 24px;
+    --text_16: 16px;
+    --subtitle: 20px;
+    --text_14: 14px;
+    --gris1: #e8e8e8;
+    --black1: #000;
+    --whitemain: #FFF;
+}
+body{
+    margin: 0 !important;
+    height: 100vh;
+}

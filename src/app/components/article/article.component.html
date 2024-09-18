@@ -1,0 +1,49 @@
+<div class="article-view">
+  <section class="target">
+    <div class="title">
+      <h1 style="font-size: var(--title)">INFORMACIÓN DEL CONTACTO</h1>
+    </div>
+    <div class="row body">
+      <div class="text-center">
+        <h2>Dirección</h2>
+        <p>Carrera 52 # 91-66</p>
+        <p>Medellín Colombia</p>
+      </div>
+      <div class="text-center">
+        <h2>Correo electrónico</h2>
+        <a [href]="email">{{ email }}</a>
+      </div>
+      <div class="text-center">
+        <h2>Sitio Web</h2>
+        <a>www.usuarioapellido.com </a>
+      </div>
+      <div class="text-center">
+        <h2>Red social</h2>
+        <p>www.instagram.com/usuarioapellido</p>
+        <p>www.linkeind.comm/usuarioapellido</p>
+      </div>
+      <div class="text-center">
+        <h2>Dirección de correspondencia de correo</h2>
+        <p>Carrera 52 # 91-66</p>
+        <p>Envigado Colombia</p>
+      </div>
+      <div class="text-center">
+        <h2>Número de teléfonos</h2>
+        <p>Fijo</p>
+        <p>+57 (4) 313-70-00</p>
+      </div>
+      <div class="text-center">
+        <h2>Celular</h2>
+        <p>(312) 313-44-77</p>
+      </div>
+    </div>
+  </section>
+  <section class="second-sesion">
+    <div>
+        <app-carousel [images]="[]"></app-carousel>
+    </div>
+    <div>
+        <app-article-items></app-article-items>
+    </div>
+  </section>
+</div>

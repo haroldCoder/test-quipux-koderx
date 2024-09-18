@@ -1,0 +1,17 @@
+<div class="navbar">
+  <section class="nav-1">
+    @if(!isMainRoute()){
+    <a style="color: var(--gris1);" href="/"><fa-icon [icon]="['fas', 'home']"></fa-icon></a>
+    <h1>/ Empresas</h1>
+    <h1 id="nav-text">/ {{ nav_text }}</h1>
+    }
+    @else {
+      <img src="assets/logo.png" alt="logo" />
+    }
+  </section>
+  <section class="nav-2">
+    <fa-icon id="icon-user" [icon]="['fas', 'circle-user']"></fa-icon>
+    <h1>Harold Castaño</h1>
+    <fa-icon style="color: #00b3ff" [icon]="chevron"></fa-icon>
+  </section>
+</div>
