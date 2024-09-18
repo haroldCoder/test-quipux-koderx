@@ -16,7 +16,7 @@
     </div>
 
     @if(toggle == 1 && isExpand){
-        <div style="display: flex; gap: 15px;" (click)="redirectEmpresas()">
+        <div class="opc" style="display: flex; gap: 15px; cursor: pointer;" (click)="redirectEmpresas()">
             <fa-icon [icon]="line" style="color: var(--whitemain);"></fa-icon>
             <p>Empresas</p>
         </div>    
@@ -34,7 +34,7 @@
     </div>
 
     @if(toggle == 2 && isExpand){
-        <div style="display: flex; gap: 15px;" (click)="redirectArticulos()">
+        <div class="opc" style="display: flex; gap: 15px; cursor: pointer;" (click)="redirectArticulos()">
             <fa-icon [icon]="line" style="color: var(--whitemain);"></fa-icon>
             <p>Articulos</p>
         </div>

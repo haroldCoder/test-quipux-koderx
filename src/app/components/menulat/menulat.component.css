@@ -46,3 +46,38 @@ p{
     font-size: var(--text_14);
     color: var(--whitemain);
 }
+
+.opc:hover > p{
+    color: #999;
+}
+
+@media (max-width: 767px) {
+    .menu-lat {
+        width: 100%;
+        height: auto; 
+        flex-direction: row;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .menu-lat_expand {
+        width: 100%; 
+        height: auto;
+        flex-direction: row;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .img_logo {
+        width: 60px;
+        height: 20px;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 0.875rem;
+    }
+}

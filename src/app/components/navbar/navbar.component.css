@@ -44,3 +44,35 @@ h1{
 img{
     height: 40px;
 }
+
+@media (max-width: 767px) {
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .nav-1, .nav-2 {
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    #icon-user {
+        font-size: 22px;
+    }
+
+    .nav-2 > h1 {
+        font-size: 14px;
+    }
+
+    img {
+        height: 30px;
+    }
+}
