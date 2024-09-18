@@ -40,4 +40,8 @@ export class NavbarComponent {
         break;
     }
   }
+
+  isMainRoute(): boolean {
+    return this.router.url === '/';
+  }
 }

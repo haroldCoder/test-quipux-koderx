@@ -4,6 +4,7 @@
     padding: 0 20px;
     background: var(--whitemain);
     height: 100px;
+    align-items: center;
 }
 
 .nav-1{
@@ -11,7 +12,7 @@
     justify-content: space-between;
     gap: 15px;
     align-items: center;
-    color: #777;
+    color: var(--gris1);
 }
 
 .nav-2{
@@ -38,4 +39,8 @@ h1{
     border-bottom: 5px solid #119fe8;
     color: #119fe8;
     padding: 20px 0;
+}
+
+img{
+    height: 40px;
 }
